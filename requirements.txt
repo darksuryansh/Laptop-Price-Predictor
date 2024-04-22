@@ -1,0 +1,7 @@
+numpy==1.24.3
+pandas==2.0.1
+Pillow==10.0.1
+streamlit==1.22.0
+scikit-learn
+category_encoders==2.6.1
+xgboost==2.0.0
