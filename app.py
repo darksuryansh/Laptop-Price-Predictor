@@ -14,7 +14,7 @@ preprocessor = pickle.load(open('preprocessor.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Inputs
-st.title("Laptop Predictor")
+st.title("Laptop Price Predictor")
 # Brand & Type
 st.write('- <p style="font-size:26px;"> Laptop Brand & Type</p>',unsafe_allow_html=True)
 Company = st.selectbox('Company',df['Company'].unique())
